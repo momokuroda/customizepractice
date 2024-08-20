@@ -1,0 +1,24 @@
+{
+    "name": "customizepractice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite build --mode development --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/momokuroda/customizepractice.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/momokuroda/customizepractice/issues"
+    },
+    "homepage": "https://github.com/momokuroda/customizepractice#readme",
+    "dependencies": {
+        "create-vite": "^5.5.1"
+    }
+}
