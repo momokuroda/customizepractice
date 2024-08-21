@@ -27,5 +27,12 @@ kintone.events.on('app.record.detail.show', (event) => {
         .getHeaderMenuSpaceElement()
         ?.appendChild(downloadFileButton);
 
+    // レコードIDを取得する
+    kintone.app.record.getId();
+
+    // レコードに値をセットする
+    kintone.app.record.set(record);
+    // フィールド要素を取得する
+
     return event;
 });
