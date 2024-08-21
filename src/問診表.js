@@ -19,5 +19,7 @@ kintone.events.on(EVENT, (event) => {
     displayControl(record);
     console.log('issue1');
     console.log('issue2');
+    console.log('issue1');
+    console.log('issue2');
     return event;
 });
