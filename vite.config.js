@@ -5,6 +5,7 @@ export default {
             input: {
                 customizepractice: 'src/customizepractice.js',
                 問診表: 'src/問診表.js',
+                slack連携: 'src/slack連携.js',
             },
             output: {
                 // format: 'iife', // 即時実行関数
