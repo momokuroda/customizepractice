@@ -20,5 +20,11 @@
     "homepage": "https://github.com/momokuroda/customizepractice#readme",
     "dependencies": {
         "create-vite": "^5.5.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/node": "^7.25.0",
+        "@babel/preset-env": "^7.25.4",
+        "babel-jest": "^29.7.0"
     }
 }

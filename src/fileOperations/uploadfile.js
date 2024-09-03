@@ -1,4 +1,4 @@
-import { putRecord } from '../kintoneApi/kintoneApi';
+import { putRecord } from '../setField/kintoneApi.mjs';
 
 export const uploadfile = async () => {
     const blob = new Blob(['テストファイルです'], {

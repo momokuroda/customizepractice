@@ -4,8 +4,10 @@ export default {
         rollupOptions: {
             input: {
                 customizepractice: 'src/customizepractice.js',
-                問診表: 'src/問診表.js',
+                問診表: 'src/問診表.mjs',
                 slack連携: 'src/slack連携.js',
+                カスタマイズビュー: 'src/カスタマイズビュー.js',
+                API試す用: 'src/API試す用.js',
             },
             output: {
                 // format: 'iife', // 即時実行関数
