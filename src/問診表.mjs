@@ -29,7 +29,9 @@ kintone.events.on(
         const record = event.record;
         if (record.名前.value[0] === undefined) return;
         set組織(record);
+
         console.log(record.組織);
+
         return event;
     }
 );
@@ -42,6 +44,7 @@ export const set組織 = async (record) => {
         code: 組織情報.organization.code,
         name: 組織情報.organization.name,
     };
+
     kintone.app.record.set({ record });
 };
 

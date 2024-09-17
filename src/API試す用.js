@@ -24,6 +24,20 @@ const グループEVENT = [
     'app.record.edit.change.グループ選択',
 ];
 
+kintone.events.on(
+    [
+        'app.record.create.change.チェックボックス',
+        'app.record.edit.change.チェックボックス',
+    ],
+    (event) => {
+        const record = event.record;
+        if (record.チェックボックス.value.includes('エラー出力')) {
+            event.error = 'チェックされました';
+        }
+        return event;
+    }
+);
+
 kintone.events.on('app.record.detail.show', (event) => {
     const record = event.record;
 

@@ -8,6 +8,7 @@ export default {
                 slack連携: 'src/slack連携.js',
                 カスタマイズビュー: 'src/カスタマイズビュー.js',
                 API試す用: 'src/API試す用.js',
+                在庫管理: 'src/在庫管理.js',
             },
             output: {
                 // format: 'iife', // 即時実行関数
